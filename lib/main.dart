@@ -11,7 +11,7 @@ void main() async {
   await windowManager.ensureInitialized();
 
   // Configure window options
-  await windowManager.setTitle('Reminder App');
+  await windowManager.setTitle('Reminders123');
   await windowManager.setSize(const Size(1000, 700));
   await windowManager.setMinimumSize(const Size(600, 400));
   await windowManager.center();
