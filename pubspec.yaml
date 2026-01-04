@@ -1,0 +1,62 @@
+name: reminder_app
+description: "A desktop reminder application for macOS and Linux"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Database
+  drift: ^2.22.1
+  sqlite3_flutter_libs: ^0.5.28
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Immutable data classes
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Date/Time
+  intl: ^0.20.2
+
+  # Desktop window management
+  window_manager: ^0.4.3
+
+  # UI Components
+  flutter_slidable: ^3.1.2
+  table_calendar: ^3.2.0
+
+  # Utils
+  uuid: ^4.5.1
+  collection: ^1.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code generation
+  build_runner: ^2.4.14
+  drift_dev: ^2.22.1
+  freezed: ^2.5.8
+  json_serializable: ^6.9.4
+  riverpod_generator: ^2.6.3
+
+  # Linting
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
