@@ -101,8 +101,13 @@ class SettingsScreen extends ConsumerWidget {
               children: [
                 const ListTile(
                   leading: Icon(Icons.info),
-                  title: Text('Reminder App'),
+                  title: Text('Reminders123'),
                   subtitle: Text('Version 1.0.0'),
+                ),
+                const ListTile(
+                  leading: Icon(Icons.person),
+                  title: Text('Developed by'),
+                  subtitle: Text('Victor'),
                 ),
                 ListTile(
                   leading: const Icon(Icons.code),
